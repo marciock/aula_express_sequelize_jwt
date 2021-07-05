@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="/static/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <title>teste</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+        <a href="/list">Lista de Usuários</a>
+        <a href="/teste">Teste</a>
+    </div>
+
+   
+    <script src="/static/dist/umd/popper.min.js"></script>
+    <script src="/static/dist/js/bootstrap.min.js" ></script>
+   <script>
+
+     
+
+     const token='<%-data %>';
+     console.log(token)
+     document.cookie='token='+token;
+
+     console.log(document.cookie)
+
+     
+     
+   </script>
+  </body>
+</html>
